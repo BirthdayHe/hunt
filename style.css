@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    background-color: #222222;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+#landing h1{
+    font-size: 3.5em;
+    text-transform: uppercase;
+}
+
+#begin{
+    font-size: 2.5em;
+    text-decoration: none;
+    color: white;
+    background-color: #222222;
+    padding: 0.5rem 2rem;
+    border: 1px #cccccc solid;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0.5em;
+}
+#begin:active{
+    background-color: grey;
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+}
+
+#landing{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
